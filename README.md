@@ -10,3 +10,7 @@
 
 - [云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 
+#企业微信小程序开发
+
+## 参考文档
+https://developers.weixin.qq.com/miniprogram/dev/devtools/qywx-dev.html
