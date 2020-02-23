@@ -3,7 +3,11 @@
 
   <!-- 用户 openid -->
   <view class="userinfo">
+<<<<<<< HEAD
     <button
+=======
+    <button 
+>>>>>>> 328bf83a83d62f886f97d6eb92728c371c3e15a2
       open-type="getUserInfo"
       bindgetuserinfo="onGetUserInfo"
       class="userinfo-avatar"
@@ -52,6 +56,11 @@
     <navigator url="../openapi/openapi" open-type="navigate" class="uploader-text">
       <text>云调用</text>
     </navigator>
+  </view>
+
+  <!-- 获取ajax请求 -->
+  <view class="uploader">
+    <button class="userinfo-nickname" bindtap="getLocalData">获取ajax请求</button>
   </view>
 
 
