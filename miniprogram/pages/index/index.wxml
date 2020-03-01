@@ -3,11 +3,7 @@
 
   <!-- 用户 openid -->
   <view class="userinfo">
-<<<<<<< HEAD
     <button
-=======
-    <button 
->>>>>>> 328bf83a83d62f886f97d6eb92728c371c3e15a2
       open-type="getUserInfo"
       bindgetuserinfo="onGetUserInfo"
       class="userinfo-avatar"
@@ -15,7 +11,7 @@
       size="default"
     ></button>
     <view class="userinfo-nickname-wrapper">
-      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid</button>
+      <button class="userinfo-nickname" bindtap="onGetOpenid">点击获取 openid11</button>
     </view>
   </view>
 
@@ -61,6 +57,13 @@
   <!-- 获取ajax请求 -->
   <view class="uploader">
     <button class="userinfo-nickname" bindtap="getLocalData">获取ajax请求</button>
+  </view>
+
+   <!-- 测试页面 -->
+  <view class="uploader">
+    <navigator url="../testPage/test" open-type="navigate" class="uploader-text">
+      <text>打开测试页面</text>
+    </navigator>
   </view>
 
 

@@ -127,5 +127,12 @@ Page({
         })
 
     },
+    testFunction() {
+       wx.chooseAddress({
+         
+         
+       })
+
+    }
 
 })
